@@ -174,3 +174,11 @@ padding-bottom: 5%;
     background-color: rgb(6, 102, 15);
 
 }
+@media (max-width: 800px) {.card {grid-template-columns: 1fr}}
+
+/* Containers media queries*/
+@media (min-width: 500px) {.container {width: 400px}}
+
+@media (min-width: 800px) {.container {width: 600px}}
+
+@media (min-width: 1000px) {.container {width: 800px}}
